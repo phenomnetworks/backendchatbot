@@ -101,10 +101,6 @@ pypiwin32==223
 python-chess==0.31.4
 python-dateutil==2.8.2
 python-telegram-bot==13.7
-pytorch-ranger==0.1.1
-pywin32==301
-pywin32-ctypes==0.2.0
-pywinauto==0.6.8
 PyYAML==5.4.1
 pyzmq==23.2.0
 regex==2021.7.6
