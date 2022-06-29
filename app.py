@@ -5,7 +5,7 @@ from chat import get_response
 app = Flask(__name__)
 CORS(app)
 
-@app.post("/")
+@app.post("/predict")
 def predict():
     text = request.get_json().get("message")
     # TODO: check if text is valid
