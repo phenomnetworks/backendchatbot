@@ -1,0 +1,283 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "person",
+      "patterns": [
+        "Who is Mattia?",
+        "Tell me about him?",
+        "Tell me about Mattia Loszach?",
+        "Mattia Loszach?",
+        "Tell me something?"
+      ],
+      "responses": [
+        "Mattia Loszach created this website. Want to know something about his education or qualifications?",
+        "Mattia Loszach is from Austria and was born in 2003."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "Tell ma about his education",
+        "Education",
+        "Where did he go to school?",
+        "At what school?",
+        "What is his school?",
+        "Where did Mattia go to school?",
+        "What is Mattia's school?"
+      ],
+      "responses": [
+        "First he attended the 'Global Education Primary School' in Vienna (2010-2014). Afterwards, Mattia went to 'GRG XIII Wenzgasse 7' in Vienna (2014-2022) and did his A-levels.",
+        "His Elementary School was named 'GEPS 13' and promoted compentence regarding the English language. The 'GRG Wenzgasse 7' was his High School, there he chose a focus on the study of economics."
+      ]
+    },
+    {
+      "tag": "interests",
+      "patterns": [
+        "What interests?",
+        "What is he interested in?",
+        "Mattia's interests?",
+        "What are his hobbies?",
+        "His hobbies?",
+        "What does he like?",
+        "Mattia's hobbies?",
+        "Tell me about his interests",
+        "Any other hobbies",
+        "Tell me more interests",
+        "Some other interests"
+      ],
+      "responses": [
+        "Mattia loves sports. For example soccer (he played in a club for about 10 years), tennis (he is part of the club TC Blau Weiss), cycling, skiing, basketball, ...",
+        "Mattia loves to be creative. Therefore, he's quit into coding, designing and worked a lot with programs as Blender, Final Cut Pro, Photoshop, Illustrator, Premiere Pro, After Effects.",
+        "Science and Maths are two of his biggest interests. No matter if it's about science magazines or interesting videos, he can't stop enquiring about those topics.",
+        "Mattia loves music and has played the piano since he was 8 years old. Furthermore, he likes to work with programs as Fruity Loops or Garageband and create his own music."
+      ]
+    },
+    {
+      "tag": "graduation",
+      "patterns": [
+        "What about his graduation",
+        "Tell me about his a-levels",
+        "what are his grades",
+        "Which grades did he get?",
+        "senior year"
+      ],
+      "responses": [
+        "Mattia graduated in 2022 and chose the subjects Mathematics, Physics, English and German. Want to enquire about the results? Just take a look at Mattia's 'Portfolio'.",
+        "Here are the results of his six final exams: Maths - written (1), Maths - oral (1), Physics - oral (1), English - written (2), English - oral (1), German - written (1). Austrian graduation system."
+      ]
+    },
+    {
+      "tag": "vwa",
+      "patterns": [
+        "VWA",
+        "What about his VWA",
+        "His academic paper",
+        "Tell me about his VWA",
+        "Tell me about his academic paper",
+        "Mattia's VWA",
+        "Mattia's academic paper",
+        "Smart Cities"
+      ],
+      "responses": [
+        "In 2022 Mattia chose the topic 'Smart Cities' for his academic paper. Interested? Take a look at the 'Portfolio'-Section, there you'll find a PDF-Version.",
+        "Mattia's VWA/academic paper is named 'Smart Cities - Die Städte der Zukunft' and is a description of different Smart-City-Models, -Patterns and -Characteristics. Moreover, a small insight into the Smart City Wien."
+      ]
+    },
+    {
+      "tag": "language",
+      "patterns": [
+        "What does he speak",
+        "Which languages",
+        "In which language",
+        "Can he speak english",
+        "Can he speak spanish",
+        "Language knowledge"
+      ],
+      "responses": [
+        "Mattia's first language is German. Due to his attendance regarding the GEPS 13 elemantery school and further elective subjects/programs he is able to speak English fluently. He also knows a little Spanish.",
+        "He can speak English fluently. German is his first language and he also knows a little Spanish."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact",
+        "How can I contact him?",
+        "Contact Mattia",
+        "Reach Mattia",
+        "Send him message",
+        "Get in touch",
+        "Can I contact him",
+        "What is his email",
+        "Get in contact"
+      ],
+      "responses": [
+        "Email address: mattia.loszach@gmail.com. Instagram: @mattialoszach. Phone number: Contact via email first. Further contact options will follow!"
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "Tell me about the website",
+        "What can I find on the website",
+        "What is the website about",
+        "About his website",
+        "What about the website"
+      ],
+      "responses": [
+        "This is a personal (portfolio) website from Mattia Loszach. Take a look at the 'Portfolio'-Section (education, qualifications) and the 'Updates'-Section (News, informations regarding the website and Mattia's life). Further changes and options will follow!",
+        "Enquire about Mattia and his life. There are also some easter eggs, take a look at the 'Update'-Section and find fun browser games!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old",
+        "When was he born?",
+        "What's his age?",
+        "Birthdate?",
+        "Mattia born",
+        "His birthday"
+      ],
+      "responses": [
+        "Mattia was born in 2003 in Vienna.",
+        "Mattia's birthday is the 18th of December in 2003 (in Vienna)."
+      ]
+    },
+    {
+      "tag": "abilties",
+      "patterns": [
+        "Tell me about his abilities",
+        "His abilities",
+        "His strengths",
+        "What are his abilities?",
+        "Mattia's strengths",
+        "What is he good at?",
+        "What are his skills?",
+        "Mattia's skills?"
+      ],
+      "responses": [
+        "A lot of people describe him as a very creative person who thinks outside the box. His dedication and ambition enable him to work as hard as possible and be an essential part of almost every team.",
+        "One ability worth mentioning is his resilience and he is always willing to push himself beyond proven ability. Furthermore, he got great interpersonal, communication and organising skills."
+      ]
+    },
+    {
+      "tag": "qualifications",
+      "patterns": [
+        "His qualifications",
+        "Mattia's qualifications",
+        "What are his qualifications?",
+        "Tell me some qualifications",
+        "Tell me about his qualifications",
+        "Tell me about Mattia's qualifications"
+      ],
+      "responses": [
+        "he got a broad knowledge regarding computer science. Mattia has worked with coding languages as Java, Javascript, Python, PHP, Dart. In doing so, he has a lot of interesting experiences regarding programing projects (Backend-Integration, Webshops, Webdesign, Artificial Intelligence, Machine Learning and Mobile Application Development).",
+        "He got a broad knowledge concerning computer science, designing and data processing. He speaks German, English and a little Spanish. Furthermore, experiences regarding Maths, science and engineering."
+      ]
+    },
+    {
+      "tag": "film",
+      "patterns": [
+        "favourite film",
+        "What is his favourite film?",
+        "Which film?",
+        "What film does he like?",
+        "Film preference?",
+        "Tell me about his favourite film"
+      ],
+      "responses": [
+        "Mattia loves Christopher Nolan's films 'Tenet' and 'Interstellar'. Furthermore, action movies as Spiderman and Batman."
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Taste of music",
+        "What music does he like?",
+        "What's his favourite music",
+        "Favourite music",
+        "What does he listen to?",
+        "Tell me about his favourite music"
+      ],
+      "responses": [
+        "Mattia loves HipHop and Rap music. He enjoys listening to artists as Kanye West or Travis Scott. When relaxing he also likes Jazz and more classical music."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What does he eat?",
+        "Favourite food",
+        "Food preferences",
+        "Which meals does Mattia it?",
+        "What is his favourite food?"
+      ],
+      "responses": [
+        "When talking about food, Mattia is pretty open-minded. He especially likes Italian, Japanese and American Meals."
+      ]
+    },
+    {
+      "tag": "dreams",
+      "patterns": [
+        "His dreams",
+        "What does he want to achieve?",
+        "What are his dreams?",
+        "What is Mattia dreaming of?",
+        "His goals",
+        "Mattia's goals",
+        "What is he aiming for"
+      ],
+      "responses": [
+        "One day Mattia would like to become the founder of a great corporate that enables people to live a more happy and sustainable life while keeping an eye on our and the following generation's future.",
+        "Mattia's biggest goal is to leave something to posterity that he will be remembered and thanked for long after his demise."
+      ]
+    },
+    {
+      "tag": "question",
+      "patterns": [
+        "I don't know",
+        "What can I ask?",
+        "Tell me something",
+        "What can you help me with?",
+        "I have no idea",
+        "Can you help me"
+      ],
+      "responses": [
+        "Don't know what to ask? No problem! You can ask me about Mattia's qualifications, hobbies, film preferences or his education.",
+        "Do you want to know something about Mattia's interests, dreams, taste in music or about this website?"
+      ]
+    }
+  ]
+}
